@@ -49,6 +49,6 @@ function mostraAlternativas(){
 }
 
 
-mostraPergunta();
+
 
 
