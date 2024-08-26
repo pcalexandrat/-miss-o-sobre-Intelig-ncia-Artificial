@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Quando você começa um novo projeto de programação, qual é a sua abordagem inicial?",
+        enunciado: "como faço para conseguir medicamentos não padronizados do sus?",
         alternativas: [
             {
-                texto: "Gosto de planejar detalhadamente antes de começar a codificar.",
-                afirmacao: "<b>Organização</b> é uma característica forte sua, valorizando o planejamento detalhado."
+                texto: "encaminhar-se a regional de saude do seu município, munido dos seguintes documentos: cpf ou rg, comprovante de residencia, prescriçao atualizada, receituario medico.",
+                afirmacao: "<b>Organização</b> Sim, a Sesa tem como principal função garantir o acesso ao serviços que visem a promoção, protećão e recuperação da saúde da população em todo o Paraná."
             },
             {
-                texto: "Prefiro começar a codificar logo e ajustar o plano conforme avanço.",
-                afirmacao: "Você se destaca pela <b>dinamismo</b>, gostando de aprender e ajustar durante o processo."
+                texto: "Exigências quanto ao  relatório médico. Os documentos preenchidos pelo médico deverão conter carimbo legível, com nome e CRM do médico, data e assinatura.",
+                afirmacao: "Você se destaca por seu <b>conhecimento</b>, o carimbo deverá conter também o número do Registro de Qualificação de Especialista (RQE)"
             }
         ]
     },
     {
-        enunciado: "Como você lida com problemas ou bugs no seu código?",
+        enunciado: "A falta de consciência ambiental e a baixa adesão a práticas sustentáveis acontecem por vários motivos, entre os quais destacam-se:",
         alternativas: [
             {
-                texto: "Gosto de resolver os problemas sozinho, pesquisando e testando diferentes soluções.",
-                afirmacao: "Independência define sua abordagem para resolver problemas, confiando nas suas <b>habilidades de pesquisa</b>."
+                texto: "Falta de Educação Ambiental",
+                afirmacao: "Muitas pessoas não têm acesso a informações adequadas sobre o impacto de suas ações no meio ambiente, o que leva à falta de conscientização e, consequentemente, a comportamentos prejudiciais à <b>sustentabilidade</b>.</b>."
             },
             {
-                texto: "Prefiro pedir ajuda a colegas ou em fóruns de programação quando encontro dificuldades.",
-                afirmacao: "Colaboração é essencial para você, apreciando a <b>troca de conhecimento</b> com outros programadores."
+                texto: "Falta de Incentivos e Legislação",
+                afirmacao: "A ausência de incentivos governamentais e de uma legislação <b>rigorosa </b>faz com que empresas e indivíduos não se sintam motivados a adotar práticas sustentáveis, contribuindo para a continuidade de ações nocivas ao meio ambiente."
             }
         ]
     },
     {
-        enunciado: "Qual é a sua preferência em relação à estética versus funcionalidade em um projeto?",
+        enunciado: "Por que há tanta escassez de recursos na saúde pública?",
         alternativas: [
             {
-                texto: "Acredito que a funcionalidade é mais importante que a estética.",
-                afirmacao: "<b>Pragmatismo</b> é uma característica sua, priorizando a funcionalidade e a eficiência do código."
+                texto: "Acredito que Falta de investimento governamental",
+                afirmacao: "<b>Pragmatismo</b> A falta de investimento governamental na saúde pública decorre de orçamentos restritos e outras prioridades de gastos, levando a infraestrutura precária e serviços de saúde insuficientes."
             },
             {
-                texto: "Valorizo muito a estética e gosto de criar interfaces visualmente atraentes.",
-                afirmacao: "<b>Detalhista</b>, você dá muita importância à aparência e à experiência do usuário."
+                texto: "desigualdades na distribuição de recursos",
+                afirmacao: "<b>Detalhista</b>,Desigualdades na distribuição de recursos na saúde pública ocorrem quando os recursos são alocados de maneira desigual entre diferentes regiões ou populações. Isso pode resultar em acesso desigual a serviços de saúde, com áreas mais pobres ou rurais recebendo menos apoio e, portanto, enfrentando maiores desafios em termos de qualidade e acesso a cuidados médicos."
             }
         ]
     },
     {
-        enunciado: "Qual é a sua postura em relação ao aprendizado de novas tecnologias?",
+        enunciado: "Por que a violência obstétrica está cada vez mais banalizada? ",
         alternativas: [
             {
-                texto: "Prefiro me aprofundar nas tecnologias que já conheço bem antes de explorar novas.",
-                afirmacao: "<b>Foco</b> é seu ponto forte, preferindo dominar suas ferramentas atuais."
+                texto: "Negligência médica",
+                afirmacao: "<b>Foco</b> Apesar do uso de algumas técnicas serem restringidas apenas para casos específicos, ainda são utilizadas diariamente por profissionais da saúde."
             },
             {
-                texto: "Gosto de experimentar e aprender novas tecnologias constantemente.",
-                afirmacao: "<b>Curiosidade</b> é uma marca sua, sempre em busca de novas ferramentas e técnicas."
+                texto: "Desinformação da população.",
+                afirmacao: "<b>Curiosidade</b> Mesmo com fácil acesso a informação, o assunto é pouco comentado e dado certa  importância. "
             }
         ]
     },
     {
-        enunciado: "Como você prefere trabalhar em um projeto?",
+        enunciado: "Como evitar que ocorra a extinção de animais nativos?",
         alternativas: [
             {
-                texto: "Prefiro trabalhar sozinho, tendo total controle sobre o projeto.",
-                afirmacao: "<b>Independência</b> é uma preferência sua, gostando de ter controle total sobre seus projetos."
+                texto: "Criação de mais áreas de proteção ambiental, com grande biodiversidade ajudaria a melhorar esse cenário?",
+                afirmacao: "Sim, pois preservando nosso meio ambiente, protegemos nossos animais e facilitamos sua reprodução "
             },
             {
-                texto: "Gosto de trabalhar em equipe, colaborando e compartilhando responsabilidades.",
-                afirmacao: "<b>Trabalho em equipe</b> é algo que você valoriza, apreciando a colaboração e a partilha de responsabilidades."
+                texto: "Evitar intervenções de espécies não nativas neste ambiente pode ser uma alternativa?",
+                afirmacao: "Sim, animais de um determinado local não estão preparados para lidar com predadores de outras áreas, levando a um extermínio da espécie local"
             }
         ]
     }
